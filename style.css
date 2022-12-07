@@ -1,0 +1,98 @@
+body {
+  background: #dddddd;
+  margin: 24px;
+}
+/* Timer */
+.timer {
+  font-family: sans-serif;
+  display: flex;
+  padding: 24px 32px;
+  border-radius: 30px;
+  background: white;
+  align-items: center;
+  width: 20%;
+  margin: 12rem auto;
+  justify-content: space-evenly;
+}
+
+.timer--part {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.timer--btn {
+  width: 50px;
+  height: 50px;
+  margin-left: 16px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background: #8208e6;
+  cursor: pointer;
+}
+
+.timer--btn__start {
+  background: #00b84c;
+}
+
+.timer--btn__stop {
+  background: #ff0256;
+}
+.div-2 {
+  display: flex;
+}
+.div-1 {
+  display: flex;
+}
+/* Timer */
+
+/* stopwatch */
+
+.All {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.digit {
+  font-size: 150px;
+  color: #000000bf;
+}
+
+.txt {
+  font-size: 30px;
+  color: black;
+}
+
+#buttons {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 100px;
+  padding: 10px 15px;
+  margin: 0px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.5s;
+  color: white;
+  font-weight: 500;
+}
+
+#start {
+  background-color: #009779;
+}
+
+#stop {
+  background-color: #0e85fc;
+}
+
+#reset {
+  background-color: #c91400;
+}
+
+/* stopwatch */
