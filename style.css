@@ -3,6 +3,13 @@ body {
   margin: 24px;
 }
 /* Timer */
+p.p-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem auto;
+  font-size: 36px;
+}
 .timer {
   font-family: sans-serif;
   display: flex;
@@ -11,7 +18,7 @@ body {
   background: white;
   align-items: center;
   width: 20%;
-  margin: 12rem auto;
+  margin: 6rem auto;
   justify-content: space-evenly;
 }
 
